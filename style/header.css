@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    height: 70px;
+    background-color: rgb(148, 240, 241);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hleft {
+    position: relative;
+    left: 30px;
+}
+
+.hright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin-left: auto;
+    right: 30px;
+}
+
+.aboutme {
+    margin-left: 30px;
+}
+
+.home, .discord, .aboutme {
+    display: flex;
+    border: none;
+    background-color: rgb(139, 240, 186);
+    justify-content: center;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+.home:hover, .discord:hover, .aboutme:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    box-shadow: 0 0 20px rgba(24, 37, 37, 0.5)
+}
+
+#home-t, #discord-t, #aboutme-t {
+    text-decoration: none;
+    color: rgb(9, 77, 0);
+}

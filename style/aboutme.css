@@ -1,0 +1,33 @@
+.content {
+    color: white;
+    position: relative;
+    margin: 40px;
+    border-radius: 50px;
+    background-color: rgb(46, 60, 60);
+    padding: 20px 36px;
+}
+
+.top {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+}
+
+#Me {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.para1 {
+    margin-top: 22px;
+}
+
+.end {
+    text-align: center;
+}
